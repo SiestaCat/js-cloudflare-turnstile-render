@@ -17,8 +17,9 @@ class CloudflareTurnstile
         return this.token;
     }
 
-    render(_this)
+    render(_this = null)
     {
+        _this = _this === null ? this : _this;
         _this.token = null;
         if(document.querySelector(_this.render_selector) === null) return;
         turnstile.render(_this.render_selector, {
