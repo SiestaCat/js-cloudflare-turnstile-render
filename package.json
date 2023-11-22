@@ -1,0 +1,27 @@
+{
+  "name": "js-cloudflare-turnstile-render",
+  "version": "1.0.0",
+  "description": "Render cloudflare turnstile",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SiestaCat/js-cloudflare-turnstile-render.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SiestaCat/js-cloudflare-turnstile-render/issues"
+  },
+  "homepage": "https://github.com/SiestaCat/js-cloudflare-turnstile-render#readme",
+  "keywords": [
+    "cloudflare",
+    "turnstile"
+  ],
+  "author": "Marco iosif Constantinescu <marco.isfc@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jquery": "^3.7.0"
+  }
+}
